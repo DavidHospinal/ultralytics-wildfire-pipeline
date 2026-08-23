@@ -1,0 +1,10 @@
+# Ultralytics dataset definition. Change `path` for your environment.
+path: ../data/processed/Wildfire_Mega_Dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 2
+names:
+  - smoke
+  - fire

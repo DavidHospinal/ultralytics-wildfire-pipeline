@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+*credentials*.json
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Datasets and generated exports
+data/
+datasets/
+Mega_data/
+Wildfire_Mega_Dataset/
+platform_upload/
+raw_sources/
+smart_annotation_pool/
+hard_negatives/
+runs/
+logs/
+
+# Models and inference artifacts
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.mlpackage
+
+# Large archives and raw media
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
+
+# Private or campaign-administration material
+Materials/
+Papers/
+Resorces/Contract/
+Resorces/Invoicing/
+SOW-Analíticas/
+SOW-Analíticas.rar
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+~BROMIUM
