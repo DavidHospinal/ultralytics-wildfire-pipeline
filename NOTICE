@@ -1,0 +1,35 @@
+ADDITIONAL NOTICES FOR WILDFIRE DETECTION SOFTWARE
+
+These notices clarify the intended use and scope of the project. They do not
+modify or restrict the permissions granted by the MIT License.
+
+1. RESEARCH AND EDUCATIONAL PROTOTYPE: This software is intended for research,
+   education, experimentation, and legitimate wildfire-detection applications.
+   Users are responsible for complying with applicable laws and regulations.
+
+2. NOT AN EMERGENCY SERVICE: This software is not a certified emergency-alert,
+   fire-suppression, or life-safety system. Predictions may contain false
+   positives and false negatives and must be reviewed by qualified personnel.
+
+3. NO OPERATIONAL WARRANTY: Computer-vision performance can change with the
+   geography, camera, sensor, weather, illumination, smoke type, fire stage,
+   training data, and deployment environment. Users assume the risks associated
+   with production deployment.
+
+4. DATASETS, MODELS, AND THIRD-PARTY COMPONENTS: The MIT License applies only
+   to the original software and documentation in this repository. Datasets,
+   pretrained models, media, services, and third-party dependencies remain
+   subject to their own licenses and terms.
+
+5. RESPONSIBLE DISCLOSURE: Security vulnerabilities should be reported
+   responsibly to security@hospinalsystems.com before public disclosure.
+
+ATTRIBUTION
+
+Ultralytics Wildfire Pipeline
+Wildfire early-warning computer-vision research project
+H'spinal Systems
+https://hospinalsystems.carrd.co/
+
+For professional support, consulting, or commercial inquiries, contact:
+info@hospinalsystems.com

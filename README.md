@@ -5,6 +5,7 @@ Pipeline reproducible de visión por computador para preparar datos, entrenar/de
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLO-7B68EE)](https://www.ultralytics.com/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-demo-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > Este repositorio contiene código y documentación. Los datasets, pesos, videos brutos, credenciales y archivos administrativos se excluyen deliberadamente.
 
@@ -66,6 +67,8 @@ El snapshot local de trabajo produjo 218 imágenes con bounding boxes divididas 
 │   └── label_converter.py              # VOC/YOLO/BoWFire y validación
 ├── .env.example                        # nombres de variables, sin secretos
 ├── .gitignore
+├── LICENSE                             # licencia MIT del código original
+├── NOTICE                              # avisos de uso y atribución
 └── requirements.txt
 ```
 
@@ -151,4 +154,6 @@ Desarrollado por [David Hospinal](https://www.youtube.com/@oscardavidhospinal) /
 
 ## Licencia
 
-No se ha añadido una licencia de software todavía. Hasta que el autor elija una, se mantienen todos los derechos reservados. Las licencias de los datasets y de las dependencias se rigen por sus respectivas fuentes.
+El código y la documentación original de este repositorio se distribuyen bajo la [licencia MIT](LICENSE), Copyright © 2026 Ultralytics Wildfire Pipeline — H'spinal Systems.
+
+Los avisos sobre el uso del prototipo, seguridad operacional y atribución están en [NOTICE](NOTICE). La licencia del repositorio no se extiende automáticamente a datasets, modelos preentrenados, videos, servicios ni dependencias de terceros. Cada recurso conserva los términos establecidos por su fuente original.
